@@ -1,0 +1,161 @@
+body{
+ /*background-image: url(img/background_body_rampart-main.jpg);
+  background-repeat: no-repeat;*/
+  background-image: linear-gradient(green,white);
+}
+#app{
+    margin: 0 auto;
+    width: 800px;
+    height: 100%;
+    background: #a6a6a6; 
+    background-size: 100% 100%;
+   
+}
+#header , #content , #footer{
+    width: 100%;
+}
+#header{
+    height: 100%;
+    background: rgba(255, 255, 255, 0.75);
+}
+#header-top{
+    height: 100px;
+    background: #ff0066;
+    background-image: url(img/background_logo_rampart-main.png);
+    background-size: 35% 100%;
+    background-repeat: no-repeat;
+    background-position:left center;
+}
+#header-mid{
+    background: paleturquoise;
+    padding-right: 10px;
+    overflow: hidden;
+}
+#header-bot{
+    background: rgba(51, 153, 255, 0.75);
+    overflow: hidden;
+}
+#header-bot-left{
+    float: left;
+    width: calc(70% - 0px);
+    height: 100%;
+    
+}
+#header-bot-right{
+    float: left;
+    width: calc(30% - 20px);
+    height: 100%;
+    padding-right: 20px;
+    background: #660033;
+}
+#content{
+    height: 1200px;
+    width: 100%;
+    background: #66b3ff;
+}
+#content-left{
+    height: 100%;
+    width: 75%;
+    float: left;
+    background: brown;
+    position: relative;
+}
+#content-left-top{
+    height: 5%;
+    width: 70%;
+    background: gold;
+    left: 15%;
+    top: 5%;
+    position: absolute;
+}
+#content-left-mid{
+    height: 70%;
+    width: 85%;
+    background: blue;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+}
+#content-left-bot{
+    height: 5%;
+    width: 70%;
+    background: gold;
+    margin:  auto 0 auto;
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+}
+#content-right{
+    height: 100%;
+    width: 25%;
+    float: left;
+    background: #80ff80;
+}
+#footer{
+    height: 100px;
+    width: 100%;
+    background: #ffa366;
+}
+.clear{
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.horizontal-menu{
+    padding: 0;
+    margin: 0;
+}
+.horizontal-menu li{
+    display: inline;
+    float: left;
+    padding: 5px 25px 7px;
+    border-left: 1px solid #a6a6a6;
+    border-right:  1px solid #333;
+}
+.horizontal-menu li:hover{
+    color: white;
+}
+.horizontal-menu li:first-child{
+    border-left: none;
+
+}
+.horizontal-menu li:last-child{
+    border-right: none;
+}
+.doc-menu{
+    padding: 0;
+    margin: 0;
+}
+.doc-menu li{
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #ccc;
+}
+.doc-menu li:first-child{
+    border-top: none;
+}
+.doc-menu li:last-child{
+    border-bottom: none;
+}
+.doc-menu li:hover{
+    color: white;
+}
+.taga{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.taga{
+
+}
+.chatbox{
+    width: 300px;
+    height: 200px;
+    background: cyan;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
